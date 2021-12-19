@@ -106,7 +106,15 @@ docker run --rm -it -v "$(pwd):/terraformfiles" terraformers:v1 plan
 docker run --rm -it -v "$(pwd):/terraformfiles" terraformers:v1 apply "-auto-approve"
 ```
 ## 5. Using Helm Chart to run **[crizmas-mvc](https://github.com/raulsebastianmihaila/crizmas-mvc)**
-Run these commands in your GCP Cloud Shell:
+- Login to GCP
+- open Cloud Shell
+- Clone this repo
+```shell
+git clone https://github.com/imbni/crizmas-mvc-app-gke-helm-chart.git 
+```
+```shell
+cd crizmas-mvc-app-gke-helm-chart
+```
 - Enable APIs
 ```shell
 gcloud container clusters get-credentials gke-mbn-tformers-default-dev --region us-central1 
