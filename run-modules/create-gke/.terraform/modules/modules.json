@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"gke_tformers","Source":"app.terraform.io/Terraformers21/modgke/gcp","Version":"1.3.0","Dir":".terraform/modules/gke_tformers"},{"Key":"vpc_tformers","Source":"app.terraform.io/Terraformers21/modvpc/gcp","Version":"1.1.0","Dir":".terraform/modules/vpc_tformers"}]}
